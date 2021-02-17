@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            Vue-app
+        </title>
+        <script src="./js/vue.js"></script>
+        <script src="main.js"> </script>    
+
+    </head>
+<body>
+    <div class="app">
+        <div class="product">
+            <div class="product-image">
+                <img v-bind:src="image" v-bind:alt="altText"/>
+            </div>
+            <div class="product-info">
+                <h1>{{product}}</h1>
+                <a v-bind:href="link">Find the Meaning of SMART with full form</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
